@@ -146,6 +146,10 @@ bar {
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
 }
+
+# shorcut for i3lock
+bindsym $mod+shift+x exec i3lock --color "$bg-color"
+
 # Set Rofi as app launcher
 bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 400 -fullscreen -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
 
