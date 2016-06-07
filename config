@@ -154,6 +154,8 @@ bar {
 # bindsym $mod+shift+x exec i3lock --color "$bg-color"
 bindsym $mod+shift+x exec ~/.i3/lockscreen.sh 
 
+# autorun i3lock script after 5min
+exec xautolock -time 5 -locker '~/.i3/lockscreen.sh' &
 
 # Remove titlebar
 for_window [class="^.*"] border pixel 2

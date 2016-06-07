@@ -32,6 +32,10 @@ sudo apt-get install i3blocks
 
 * scrot
 sudo apt-get install scrot
+
+* xautolock
+sudo apt-get install xautolock
+
 # LXAperance
 
 Use this software to change the GTK3 Theme
