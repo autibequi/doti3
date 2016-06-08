@@ -168,3 +168,6 @@ exec_always compton -f
 
 # Wallpaper
 exec_always feh --bg-scale ~/wallpaper.jpg
+
+# Set International Keyboard
+exec_always setxkbmap us intl
